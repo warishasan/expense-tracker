@@ -25,8 +25,8 @@ function AddTransaction () {
         <h3>Add New Transaction</h3>
         <form onSubmit = {onSubmit}>
             <div className = "form-control"> 
-            <label htmlFor = "text">Text</label>
-            <input type = "text" value = {text} onChange = {(e) => setText(e.target.value)} placeholder = "Enter Text ..."/>
+            <label htmlFor = "text">Details</label>
+            <input type = "text" value = {text} onChange = {(e) => setText(e.target.value)} placeholder = "Enter Details ..."/>
 
             </div>
             <div className = "form-control">
